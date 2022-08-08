@@ -1,9 +1,9 @@
-interface NumberBttn {
+export interface DialItem {
     chars: Array<string>;
     num: number;
 };
 
-const GRID_DATA : Array<NumberBttn> = [
+const DIAL_DATA : Array<DialItem> = [
     { num: 1, chars: []},
     { num: 2, chars: ['a', 'b', 'c']},
     { num: 3, chars: ['d', 'e', 'f']},
@@ -15,4 +15,4 @@ const GRID_DATA : Array<NumberBttn> = [
     { num: 9, chars: ['w', 'x', 'y', 'z']},
 ];
 
-export default GRID_DATA;
+export default DIAL_DATA;
