@@ -2,7 +2,7 @@
 
 To run the app please follow these instructions:
 
-1. clone project and run 'cd server', 'npm i' 
+1. clone project, open it in command line, run 'cd server', 'npm i' 
 2. run 'npm run start' to start the server
 3. visit http://localhost:9000/
 
