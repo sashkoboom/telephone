@@ -47,7 +47,10 @@ function App() {
     </div>
     </div>
     
-    <TelephoneGrid onDial={(num : number) => setDial(`${ dial }${ num }`) } />
+    <TelephoneGrid onDial={(num : number) => {
+      if(  num !== 1 ){
+        setDial(`${ dial }${ num }`)
+      }} } />
     <div 
       onClick={() => { setDial(''); setBestGuess(''); setOtherGuesses([]);}}
       className="text-md cursor-pointer m-2 mt-[20px]  text-center font-black bg-white rounded-md px-3 py-2"
