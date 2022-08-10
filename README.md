@@ -10,7 +10,7 @@ To run the app please follow these instructions:
 ## features
 
 - GraphQL (Apollo)
-- Phone keyboard-like UI
+- Phone keyboard-like UI made with React & Tailwind.css
 - Filtering to include only real words based on a dictionary
 
 
