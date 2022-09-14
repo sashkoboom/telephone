@@ -1,5 +1,7 @@
 # telephone
 
+A little fullstack demo app with dial interface and word-guessing algorithm. Technologies: React, Tailwind, GraphQL(Apollo)
+
 To run the app please follow these instructions:
 
 1. clone project, open it in command line, run 'cd server', 'npm i' 
